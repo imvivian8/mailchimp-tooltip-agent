@@ -1,0 +1,18 @@
+{
+  "name": "mailchimp-tooltip-agent",
+  "version": "1.0.0",
+  "description": "Crawls Mailchimp and identifies every metric missing a tooltip. Produces an annotated visual HTML report showing exactly where tooltips should go and what copy they should contain.",
+  "type": "module",
+  "main": "audit.mjs",
+  "scripts": {
+    "audit": "node audit.mjs",
+    "audit:page": "node audit.mjs --page",
+    "audit:sections": "node audit.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.59.1"
+  }
+}
